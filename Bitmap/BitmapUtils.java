@@ -22,8 +22,6 @@ public class BitmapUtils {
         options.inSampleSize = calculateInSampleSize(options, maxSize, maxSize);
         options.inJustDecodeBounds = false;
 
-		// tesetslkdjfslje
-
         return BitmapFactory.decodeResource(resources, resId, options);
     }
 
